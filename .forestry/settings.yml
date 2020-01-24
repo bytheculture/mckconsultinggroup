@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _home
+  label: Home
+  create: all
+  match: "**/*"
+  templates:
+  - home
+- type: directory
   path: ''
   label: Contact
   create: all
