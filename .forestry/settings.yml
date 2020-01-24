@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Contact
+  create: all
+  match: "**/*"
+- type: directory
   path: _about
   label: About
   create: all
@@ -17,7 +22,7 @@ sections:
   templates:
   - services
 - type: jekyll-posts
-  label: Posts
+  label: Blog
   create: documents
 upload_dir: uploads
 public_path: "/uploads"
