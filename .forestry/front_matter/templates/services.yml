@@ -1,4 +1,28 @@
 ---
 label: Services
 hide_body: false
-fields: []
+fields:
+- name: service_header
+  type: text
+  config:
+    required: false
+  label: Service Header
+- name: service_subheader
+  type: text
+  config:
+    required: false
+  label: Service Subheader
+- name: services_items
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
+  label: Service Items
+- name: service_image
+  type: file
+  config:
+    maxSize: 250
+  label: Service Image
