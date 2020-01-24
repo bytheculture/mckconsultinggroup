@@ -1,4 +1,36 @@
 ---
 label: About
 hide_body: true
-fields: []
+fields:
+- name: about_header
+  type: text
+  config:
+    required: false
+  label: About Header
+- name: about_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About Description
+- name: about_left_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About Left Text
+- name: about_right_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About Right Text
