@@ -34,3 +34,5 @@ fields:
     schema:
       format: markdown
   label: About Right Text
+pages:
+- _about/about.md
