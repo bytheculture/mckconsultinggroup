@@ -25,3 +25,5 @@ fields:
     max: 
     labelField: 
   label: Slide Header
+pages:
+- _home/slide1.md
