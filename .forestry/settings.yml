@@ -12,7 +12,7 @@ sections:
   templates:
   - home
 - type: directory
-  path: ''
+  path: _contact
   label: Contact
   create: all
   match: "**/*"
