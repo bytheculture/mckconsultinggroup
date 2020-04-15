@@ -559,9 +559,8 @@ figcaption {
 }
 
 .section.bg-accent.has-bg-image {
-  background-image: url('https://via.placeholder.com/1000x600.png?text=IMAGE');
-  background-position: 0px 0px;
-  background-size: 125px;
+  background-image: url('../uploads/background.jpg');
+  background-size: cover;
 }
 
 .section.bg-dummy-image {
@@ -585,14 +584,14 @@ figcaption {
 }
 
 .section.is-header.bg-accent.position-relative.bg-img {
-  background-image: url('https://via.placeholder.com/1000x600.png?text=IMAGE');
-  background-position: 100% 50%;
-  background-size: contain;
+  background-image: url('../uploads/background.png');
+  background-position: 100% 0%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .section.is-header.bg-accent.position-relative.bg-img2 {
-  background-image: url('https://via.placeholder.com/1000x600.png?text=IMAGE');
+  background-image: url('../uploads/background.png');
   background-position: 100% 0%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3365,10 +3364,10 @@ figcaption {
 .image-as-bg {
   position: absolute;
   z-index: 2;
-  width: 106%;
-  height: 100%;
-  background-image: url('https://via.placeholder.com/1000x600.png?text=IMAGE');
-  background-position: 50% 50%;
+  width: 100%;
+  height: 75%;
+  background-image: url('../uploads/solutions.png');
+  /* background-position: 50% 50%; */
   background-size: cover;
   background-repeat: no-repeat;
 }
