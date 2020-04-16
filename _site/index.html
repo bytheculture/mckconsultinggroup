@@ -282,7 +282,12 @@
         <div class="c-contact__home w-form">
           <div class="size-h2">Tell us about your project</div>
           <div class="margin-bottom">We will respond to your email within 24 hours</div>
-          <form name="contact" method="POST" data-netlify="true" data-name="Email Form 2"><input type="text" class="form-input-text w-input" maxlength="256" name="name" data-name="Name" placeholder="Name" id="name"><input type="email" class="form-input-text w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email" id="Email-4" required=""><input type="text" class="form-input-text w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company" id="Company" required=""><textarea placeholder="Message" maxlength="5000" id="message" name="message" data-name="Project description" class="form-textarea margin-bottom-double w-input"></textarea><input type="submit" value="Talk to our team" data-wait="Please wait..." class="button-primary w-button"></form>
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="text" class="form-input-text w-input" maxlength="256" name="name" placeholder="Name" id="name">
+            <input type="email" class="form-input-text w-input" maxlength="256" name="Email" placeholder="Email" id="Email-4" required="">
+            <input type="text" class="form-input-text w-input" maxlength="256" name="Company" placeholder="Company" id="Company" required="">
+            <textarea placeholder="Message" maxlength="5000" id="message" name="message" class="form-textarea margin-bottom-double w-input"></textarea>
+            <button type="submit" data-wait="Please wait..." class="button-primary w-button">Talk to our team</button></form>
         </div>
       </div>
     </div>
